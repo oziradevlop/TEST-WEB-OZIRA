@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;    
+ display: flex;
+justify-content: flex-end;
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+    
+}
+
+.linavi a:link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 13px ;
+    
+}
+
+.linavi a:visited {
+ color: black;
+}
+
+.linavi a:hover {
+    color: blue;
+    text-decoration: underline;
+    }
+
+.navigasi {
+   float: left  ;
+    height: 50px;
+    margin-left: 10px;
+    
+}
+
+div clear {
+    clear: left;
+}
+
+h1 {
+    text-align: left;
+    margin: 50px;
+    padding-left:190 px ;
+    margin-top: 100px;
+    padding-left: 180px;
+    width: 60%;
+    font-size: 52px;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    text-align: left;
+    height: 50px;
+    margin: 0 auto;
+    width: 70%;
+    font-family: 'Inter', sans-serif;
+    color: #888888;
+    font-size: 15px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sub ul {
+list-style: none;
+ padding: 0;
+ margin: 0;    
+ display: flex;
+ justify-content: center;
+ width: 70%;
+ margin: 0 auto;
+}
+
+.sub-ul a:link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 19px;
+    }
+
+.sub-ul a:visited {
+ color: black;
+}
+
+.sub-ul a:hover {
+    color: #888888;
+    text-decoration: underline;
+    }
+
+.image {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+div .image img {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+div .image img{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
